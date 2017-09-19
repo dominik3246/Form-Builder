@@ -1,0 +1,30 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.nav {
+  margin-top: 50px;
+  border-bottom: 1px solid #000000;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav__list-item {
+  border: 1px solid #000000;
+  margin-right: 50px;
+}
+
+.nav__list-item:hover {
+  background-color: #a8a6a6;
+}
+
+.nav__link {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
